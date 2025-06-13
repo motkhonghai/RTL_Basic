@@ -1,0 +1,36 @@
+$date
+	Mon Jun  9 23:54:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_waveform_gen $end
+$var wire 8 ! wave [7:0] $end
+$var reg 1 " en $end
+$var reg 2 # pattern [1:0] $end
+$scope module dut $end
+$var wire 1 " en $end
+$var wire 2 $ pattern [1:0] $end
+$var wire 8 % wave [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10101010 %
+b10 $
+b10 #
+1"
+b10101010 !
+$end
+#10
+bz !
+bz %
+0"
+#20
